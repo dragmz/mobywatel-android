@@ -1,6 +1,5 @@
 package pl.gov.coi.common.ui.ds.button
 
-import android.annotation.SuppressLint
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
@@ -44,7 +43,6 @@ import pl.gov.coi.common.ui.utils.get
 import pl.gov.coi.common.ui.utils.getResourceEntryNameIcon
 
 
-@SuppressLint("UnrememberedMutableInteractionSource")
 @Composable
 fun Button(data: ButtonData) {
   val focusManager = LocalFocusManager.current
